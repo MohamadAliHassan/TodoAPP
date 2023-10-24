@@ -35,7 +35,7 @@ function AddTask({ tasklist, setTaskList, task, setTask }) {
       setTask(null); //clears the input field when the user updates their task
     }
 
-    e.target.task.value = ""; // set the input field to an empty string
+    e.target.task.value = ""; 
   };
 
   const isEditing = task && task.id; //If the task is defined and edited it will be true.
